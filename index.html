@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Ingressos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="/img/Pink_Creative_Ticket_Brush_Strokes_Motivational_Instagram_Post-removebg-preview.1.png" alt="logo" class="logo">
+        <!-- Cadastro do Cliente -->
+        <div id="cadastroCliente">
+            <h2>Cadastro do Cliente</h2>
+            <form id="formCadastroCliente">
+                <label for="clienteNome">Nome:</label>
+                <input type="text" id="clienteNome" required>
+                <label for="clienteEmail">Email:</label>
+                <input type="email" id="clienteEmail" required>
+                <button type="submit">Cadastrar Cliente</button>
+            </form>
+        </div>
+
+        <!-- Lista de Eventos -->
+        <div id="listaEventos">
+            <h2>Eventos Disponíveis</h2>
+            <ul id="eventos"></ul>
+        </div>
+
+        <!-- Exibição de Compras -->
+        <div id="listaCompras">
+            <h2>Ingressos Comprados</h2>
+            <ul id="compras"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
